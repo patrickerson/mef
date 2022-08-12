@@ -20,12 +20,3 @@ class FileManipulation:
     
     def get_filename(self):
         return self.filename
-
-    def count_lines(self):
-        decode_file = self.decode_file()
-        num_lines = len(decode_file) - 1
-        if num_lines == 0:
-            return "File is empty"
-        if int(decode_file[0]) != num_lines:
-            return "Number of lines is wrong"
-        return num_lines

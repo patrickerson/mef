@@ -1,4 +1,3 @@
-from MEF_python.file_manipulation import FileManipulation
 
 
 def start(input):
